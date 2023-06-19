@@ -1,0 +1,19 @@
+.Stories {
+  position: relative;
+  overflow-y: hidden;
+  overflow-x: scroll;
+  padding: 12px 0;
+  box-shadow: 0px 0.33px 0px #a6a6aa;
+}
+
+.Stories::-webkit-scrollbar {
+  display: none;
+}
+
+.stories-contain {
+  padding: 12px;
+  list-style-type: none;
+  display: flex;
+  align-items: center;
+  gap: 20px;
+}

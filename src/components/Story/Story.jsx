@@ -1,0 +1,18 @@
+import "./Story.css";
+
+import React from "react";
+
+const Story = ({ story }) => {
+  return (
+    <div className="Story">
+      <div className="story-img">
+        <img src={story.userImage} alt={story.username} />
+      </div>
+      <p className="story-username">
+        {story.isUser ? "Your Story" : story.username}
+      </p>
+    </div>
+  );
+};
+
+export default Story;
