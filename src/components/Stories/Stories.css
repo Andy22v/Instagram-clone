@@ -3,7 +3,6 @@
   overflow-y: hidden;
   overflow-x: scroll;
   padding: 12px 0;
-  box-shadow: 0px 0.33px 0px #a6a6aa;
 }
 
 .Stories::-webkit-scrollbar {
@@ -16,4 +15,5 @@
   display: flex;
   align-items: center;
   gap: 20px;
+  box-shadow: 0px 0.33px 0px #a6a6aa;
 }

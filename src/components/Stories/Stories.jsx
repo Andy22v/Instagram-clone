@@ -5,12 +5,11 @@ const Stories = ({ stories }) => {
   return (
     <div className="Stories">
       <ul className="stories-contain">
-        {stories &&
-          stories.map((story) => (
-            <li key={story.id}>
-              <Story story={story} />
-            </li>
-          ))}
+        {stories.map((story) => (
+          <li key={story.id}>
+            <Story story={story} />
+          </li>
+        ))}
       </ul>
     </div>
   );

@@ -13,3 +13,10 @@
   align-items: center;
   gap: 18px;
 }
+
+.camera-contain,
+.logo-contain,
+.action-tv,
+.action-msg {
+  cursor: pointer;
+}
