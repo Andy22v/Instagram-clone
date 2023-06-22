@@ -61,3 +61,28 @@
   font-size: 12px;
   text-align: center;
 }
+
+.story-live {
+  width: 36px;
+  height: 24px;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  text-align: center;
+  position: absolute;
+  bottom: 16px;
+  color: #ffffff;
+  z-index: 2;
+  left: 50%;
+  transform: translateX(-50%);
+  background: linear-gradient(
+      125.85deg,
+      #c90083 10.82%,
+      #d22463 29.29%,
+      #e10038 93.41%
+    ),
+    linear-gradient(0deg, #fefefe, #fefefe);
+  border-radius: 3px;
+  border: 2px solid #ffffff;
+  font-size: 10px;
+}

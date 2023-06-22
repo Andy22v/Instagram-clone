@@ -42,6 +42,7 @@
 
 .messages-list {
   width: 100%;
+  margin-top: 10px;
 }
 
 .cart-message {
@@ -51,6 +52,7 @@
   align-items: center;
   margin-bottom: 5px;
   padding: 5px;
+  gap: 10px;
 }
 
 .img-contain {
@@ -69,6 +71,22 @@
 .message {
   width: calc(100% - 80px);
   display: flex;
-  justify-content: space-around;
-  align-items: center;
+  flex-direction: column;
+  justify-content: start;
+  align-items: start;
+}
+
+.name {
+  color: #262626;
+  font-size: 13px;
+}
+
+.msg {
+  font-size: 13px;
+  color: rgba(0, 0, 0, 0.4);
+}
+
+.time-msg p {
+  font-size: 13px;
+  color: rgba(0, 0, 0, 0.4);
 }
