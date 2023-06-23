@@ -18,13 +18,14 @@ function App() {
   const [stories, setStories] = useState(storiesData);
   const [posts, setPosts] = useState(postsData);
   const [messages, setMessages] = useState([]);
+  const [camera, setCamera] = useState(false);
 
   useEffect(() => {
     fetch("https://api.npoint.io/8be99baa9f2796022b55")
       .then((res) => res.json())
       .then((data) => setPosts(data));
 
-    fetch("https://api.npoint.io/67434508b671d21996f6")
+    fetch(" https://api.npoint.io/8687527c32d100d37843")
       .then((res) => res.json())
       .then((data) => setStories(data));
 
@@ -43,7 +44,7 @@ function App() {
           </>
         );
       case "camera":
-        return <Camera />;
+        return <Camera camera={camera} setCamera={setCamera} />;
       case "tv":
         return <h1>TV</h1>;
       case "message":
@@ -53,7 +54,7 @@ function App() {
 
   return (
     <>
-      <TopBar setSection={setSection} />
+      <TopBar setSection={setSection} setCamera={setCamera} />
       {onRender()}
       <Footer userData={userData} setSection={setSection} />
     </>

@@ -4,8 +4,12 @@ import Logo from "../icons/Logo";
 import Igtv from "../icons/Igtv";
 import Messanger from "../icons/Messanger";
 
-const TopBar = ({ setSection }) => {
+const TopBar = ({ setSection, setCamera }) => {
   const handleClick = (setctionName) => {
+    if (setctionName !== "camera") {
+      setSection(setctionName);
+      setCamera(true);
+    }
     setSection(setctionName);
   };
 

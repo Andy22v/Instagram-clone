@@ -1,21 +1,26 @@
-export const storiesData = [
+export const storyData = [
   {
     id: 1,
     userId: 1,
     isUser: true,
-    username: "Hitachi",
+    username: "Mr.Wolf",
     userImage:
-      "https://cdnb.artstation.com/p/assets/images/images/045/657/857/large/luciamoonart-itachi.jpg?1643225055",
+      "https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcTN1mO6fgaty3nQ2ubv2-6guOwr-qWujQgDIQ&usqp=CAU",
     stories: [
       {
         id: 1,
         type: "image",
-        src: "https://picsum.photos/200/300",
+        src: "https://picsum.photos/600x400",
       },
       {
         id: 2,
+        type: "video",
+        src: "https://joy1.videvo.net/videvo_files/video/free/2014-02/large_watermarked/Retro_Pinwheel_RedVidevo_preview.mp4",
+      },
+      {
+        id: 3,
         type: "image",
-        src: "https://picsum.photos/200/300",
+        src: "https://picsum.photos/600x400",
       },
     ],
   },
@@ -29,12 +34,12 @@ export const storiesData = [
       {
         id: 1,
         type: "image",
-        src: "https://picsum.photos/200/300",
+        src: "https://picsum.photos/600x400",
       },
       {
         id: 2,
         type: "image",
-        src: "https://picsum.photos/200/300",
+        src: "https://picsum.photos/600x400",
       },
     ],
   },
@@ -48,12 +53,17 @@ export const storiesData = [
       {
         id: 1,
         type: "image",
-        src: "https://picsum.photos/200/300",
+        src: "https://picsum.photos/600x400",
       },
       {
         id: 2,
         type: "image",
-        src: "https://picsum.photos/200/300",
+        src: "https://picsum.photos/600x400",
+      },
+      {
+        id: 3,
+        type: "image",
+        src: "https://picsum.photos/600x400",
       },
     ],
   },
@@ -66,13 +76,19 @@ export const storiesData = [
     stories: [
       {
         id: 1,
+
         type: "image",
-        src: "https://picsum.photos/200/300",
+        src: "https://picsum.photos/600x400",
       },
       {
         id: 2,
         type: "image",
-        src: "https://picsum.photos/200/300",
+        src: "https://picsum.photos/600x400",
+      },
+      {
+        id: 3,
+        type: "image",
+        src: "https://picsum.photos/600x400",
       },
     ],
   },
@@ -82,17 +98,12 @@ export const storiesData = [
     username: "yraigatt3",
     userImage: "https://robohash.org/facilisdignissimosdolore.png",
     isLive: false,
-    stories: [
-      {
-        id: 1,
-        type: "image",
-        src: "https://picsum.photos/200/300",
-      },
-      {
-        id: 2,
-        type: "image",
-        src: "https://picsum.photos/200/300",
-      },
-    ],
+  },
+  {
+    id: 6,
+    userId: 6,
+    username: "kmeus4",
+    userImage: "https://picsum.photos/600x400",
+    isLive: false,
   },
 ];
